@@ -47,7 +47,7 @@ class UserInteractionAwareCallback(
         return originalCallback.onCreatePanelMenu(featureId, menu)
     }
 
-    override fun onPreparePanel(featureId: Int, view: View, menu: Menu): Boolean {
+    override fun onPreparePanel(featureId: Int, view: View?, menu: Menu): Boolean {
         return originalCallback.onPreparePanel(featureId, view, menu)
     }
 
