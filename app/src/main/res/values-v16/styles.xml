@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="customfontstyle" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/sukhumvitset</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/sukhumvitset</item>
+        <item name="android:buttonStyle">@style/Button</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorWhite</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+    </style>
+
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:fontFamily">@font/sukhumvitset</item>
+        <item name="android:textSize">@dimen/textSizeMedium</item>
+    </style>
+    <!--    <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView">-->
+    <!--        &lt;!&ndash; Background for the search query section (e.g. EditText) &ndash;&gt;-->
+    <!--        <item name="queryBackground">...</item>-->
+    <!--        &lt;!&ndash; Background for the actions section (e.g. voice, submit) &ndash;&gt;-->
+    <!--        <item name="submitBackground">...</item>-->
+    <!--        &lt;!&ndash; Close button icon &ndash;&gt;-->
+    <!--        <item name="closeIcon">...</item>-->
+    <!--        &lt;!&ndash; Search button icon &ndash;&gt;-->
+    <!--        <item name="searchIcon">...</item>-->
+    <!--        &lt;!&ndash; Go/commit button icon &ndash;&gt;-->
+    <!--        <item name="goIcon">...</item>-->
+    <!--        &lt;!&ndash; Voice search button icon &ndash;&gt;-->
+    <!--        <item name="voiceIcon">...</item>-->
+    <!--        &lt;!&ndash; Commit icon shown in the query suggestion row &ndash;&gt;-->
+    <!--        <item name="commitIcon">...</item>-->
+    <!--        &lt;!&ndash; Layout for query suggestion rows &ndash;&gt;-->
+    <!--        <item name="suggestionRowLayout">...</item>-->
+    <!--    </style>-->
+
+    <style name="TextAppearance.MaterialComponents.Caption" parent="AppTheme">
+        <item name="fontFamily">@font/sukhumvitset</item>
+    </style>
+
+    <style name="GrayLightAppBarTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:fontFamily">@font/sukhumvitset</item>
+        <item name="android:buttonStyle">@style/Button</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimaryDark">@color/bgAppShowProduct</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+    </style>
+
+    <style name="BlueLightAppBarTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:fontFamily">@font/sukhumvitset</item>
+        <item name="android:buttonStyle">@style/Button</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimaryDark">@color/colorLightBlue</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+    </style>
+
+    <style name="GreenAppBarTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:fontFamily">@font/sukhumvitset</item>
+        <item name="android:buttonStyle">@style/Button</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimaryDark">@color/colorGreen</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+    </style>
+
+    <style name="BlueAppBarTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:fontFamily">@font/sukhumvitset</item>
+        <item name="android:buttonStyle">@style/Button</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimaryDark">@color/colorBlue</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+    </style>
+
+    <style name="FullDialogTheme" parent="Theme.AppCompat.Light.DialogWhenLarge">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Set this to true if you want Full Screen without status bar -->
+        <item name="android:windowFullscreen">false</item>
+
+        <item name="android:windowIsFloating">false</item>
+
+        <!-- This is important! Don't forget to set window background -->
+        <item name="android:windowBackground">@color/colorWhite</item>>
+    </style>
+
+
+</resources>

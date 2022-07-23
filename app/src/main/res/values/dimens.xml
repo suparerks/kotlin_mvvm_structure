@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text -->
+    <dimen name="textSizeTinySmall">12sp</dimen>
+    <dimen name="textSizeSmall">14sp</dimen>
+    <dimen name="textSizeExtraSmall">16sp</dimen>
+    <dimen name="textSizeMediumSmall">18sp</dimen>
+    <dimen name="textSizeMedium">20sp</dimen>
+    <dimen name="textSizeMediumLarge">23sp</dimen>
+    <dimen name="textSizeLarge">25sp</dimen>
+    <dimen name="textSizeExtraLarge">30sp</dimen>
+
+
+    <dimen name="textSizeTableHeader">@dimen/textSizeLarge</dimen>
+    <dimen name="textSizeTableBody">@dimen/textSizeMediumLarge</dimen>
+
+    <!--    <dimen name="textSizeTinySmall">18sp</dimen>-->
+    <!--    <dimen name="textSizeSmall">20sp</dimen>-->
+    <!--    <dimen name="textSizeExtraSmall">22sp</dimen>-->
+    <!--    <dimen name="textSizeMediumSmall">24sp</dimen>-->
+    <!--    <dimen name="textSizeMedium">26sp</dimen>-->
+    <!--    <dimen name="textSizeMediumLarge">29sp</dimen>-->
+    <!--    <dimen name="textSizeLarge">31sp</dimen>-->
+    <!--    <dimen name="textSizeExtraLarge">36sp</dimen>-->
+
+
+
+    <dimen name="boxCouponCorner">3dp</dimen>
+    <dimen name="boxFillCorner10">10dp</dimen>
+    <dimen name="boxFillCorner">20dp</dimen>
+
+    <dimen name="buttonPadding">10dp</dimen>
+    <dimen name="buttonCorner">10dp</dimen>
+
+    <dimen name="editTextPadding">3dp</dimen>
+    <dimen name="editTextCorner">5dp</dimen>
+
+    <dimen name="bgProductCorner">10dp</dimen>
+
+    <dimen name="bottom_sheet_corner_radius">10dp</dimen>
+
+    <array name="autoSizeTextSizeMedium">
+        <item>20sp</item>
+        <item>24sp</item>
+        <item>28sp</item>
+        <item>32sp</item>
+        <item>36sp</item>
+    </array>
+
+    <!-- SpaceSize -->
+    <dimen name="spaceSizeExtraLarge">10dp</dimen>
+    <dimen name="spaceSizeLarge">7dp</dimen>
+    <dimen name="spaceSizeMedium">5dp</dimen>
+    <dimen name="spaceSizeSmall">3dp</dimen>
+    <dimen name="spaceSizeTiny">2dp</dimen>
+
+    <!-- Home Component -->
+    <dimen name="home_productItem_productLabel_sideMargin">4dp</dimen>
+    <dimen name="home_bannerMargin">8dp</dimen>
+    <dimen name="shared_imageSlideIndicator_defaultWidth">7dp</dimen>
+    <dimen name="home_product_cinema_item_size">170dp</dimen>
+    <dimen name="home_product_saving_percent_icon_width">45dp</dimen>
+    <dimen name="home_product_saving_percent_icon_height">50dp</dimen>
+    <dimen name="shared_bannerMargin">8dp</dimen>
+    <dimen name="shared_smallBanner_sideMargin">2dp</dimen>
+    <dimen name="home_smallBannerImg_sideMargin">2dp</dimen>
+    <dimen name="home_componentMargin">8dp</dimen>
+    <dimen name="home_headlineComponent_height">35dp</dimen>
+    <dimen name="home_headlineComponent_moreBtnSidePadding">6dp</dimen>
+
+    <!-- ProductDetail -->
+    <dimen name="product_detail_timecounter_bg_width">23dp</dimen>
+    <dimen name="product_detail_timecounter_bg_height">22dp</dimen>
+    <dimen name="sizeBoxHeader">60sp</dimen>
+    <dimen name="sizeclockFlashSale">60sp</dimen>
+    <dimen name="sizeHeaderFlashSale">-2sp</dimen>
+    <dimen name="sizeFlagPercent">-2sp</dimen>
+    <dimen name="sizeFlagNew">90sp</dimen>
+    <dimen name="sizeBoxPercentDetail">60sp</dimen>
+    <dimen name="textProductSizeExtraSmall">16sp</dimen>
+    <dimen name="textProductSizeMediumSmall">18sp</dimen>
+    <dimen name="sizeImageBadgeWidth">100sp</dimen>
+    <dimen name="sizeImageBadgeHeight">68sp</dimen>
+    <dimen name="sizeTextPrice">15sp</dimen>
+    <dimen name="textClockFlashSale">@dimen/textSizeSmall</dimen>
+
+    <!-- Menu -->
+    <dimen name="sizeBarBackgroundApp">0.7</dimen>
+    <dimen name="sizeBoxMenu">0dp</dimen>
+    <dimen name="marginBottomMenu">0dp</dimen>
+    <dimen name="marginLeftMenu">0dp</dimen>
+    <dimen name="logoKioskHeight">0dp</dimen>
+    <dimen name="logoKioskWidth">0dp</dimen>
+    <dimen name="textSizeMainMenu">@dimen/textSizeExtraSmall</dimen>
+
+    <!--product category-->
+    <dimen name="textSubCategorySize">@dimen/textSizeMedium</dimen>
+    <dimen name="subCategorySize">60dp</dimen>
+    <dimen name="subCategoryRadiusSize">50dp</dimen>
+
+    <!-- Shipping -->
+    <dimen name="shippingTxtSearchSpace">15dp</dimen>
+    <dimen name="shippingTxtSearchSpaceTop">15dp</dimen>
+    <dimen name="shippingTxtSearchPadding">15dp</dimen>
+    <dimen name="shippingViewPadding">16dp</dimen>
+    <dimen name="shippingMethodButtonWidth">140dp</dimen>
+
+    <dimen name="paymentMethodButtonPadding">12dp</dimen>
+    <dimen name="paymentMethodButtonHeight">80dp</dimen>
+
+    <dimen name="additionalBox">50dp</dimen>
+    <dimen name="imageStatus">80dp</dimen>
+
+    <!-- Order -->
+    <dimen name="heightProductList">550dp</dimen>
+
+
+</resources>

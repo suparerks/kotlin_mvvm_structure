@@ -1,0 +1,123 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 29
+
+    defaultConfig {
+        applicationId "com.example.myapplication"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    def ext = rootProject.ext
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+    implementation 'org.parceler:parceler-api:1.1.12'
+
+
+    api(ext.logging_interceptor) {
+        exclude group: 'org.json', module: 'json'
+
+    }
+
+    api ext.support.design
+    api ext.support.customtabs
+
+    api ext.supportv4
+    api ext.appcompat
+    api ext.android_material
+    api ext.cardview
+    api ext.constraint
+    api ext.arch.extensions
+
+    api ext.google_play.auth
+    api ext.google_play.location
+    api ext.google_play.maps
+    api ext.google_play.vision
+
+    api ext.koin_viewmodel
+
+    api ext.fragment_navigation
+    api ext.glide.glide
+    kapt ext.glide.glide_kapt
+
+    api ext.retrofit.retrofit
+    api ext.retrofit.converter_gson
+    api ext.retrofit.rxjava_adapter
+
+    api ext.rxjava
+    api ext.rxrelay
+    api ext.rxandroid
+
+    api ext.coroutines.android
+
+    api ext.picasso
+
+    api ext.material_dialogs
+    api ext.swipe_menu_listview
+    api ext.material_datetime_picker
+    api ext.range_seekbar
+    api ext.circle_imageview
+    api ext.nineoldandroids
+    api ext.html_textview
+
+    api ext.saripaar
+    api ext.persistent_cookie_jar
+    api ext.http_logging_interceptor
+    api ext.encryption
+
+    api ext.retrofit.retrofit
+    api ext.retrofit.converter_gson
+    api ext.retrofit.rxjava_adapter
+
+    api ext.rxjava
+    api ext.rxrelay
+    api ext.rxandroid
+
+    api ext.coroutines.android
+
+    api ext.picasso
+
+    api ext.material_dialogs
+    api ext.swipe_menu_listview
+    api ext.material_datetime_picker
+    api ext.range_seekbar
+    api ext.circle_imageview
+    api ext.nineoldandroids
+    api ext.html_textview
+
+    api ext.saripaar
+    api ext.persistent_cookie_jar
+    api ext.http_logging_interceptor
+    api ext.encryption
+
+}

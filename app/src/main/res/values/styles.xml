@@ -1,0 +1,254 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="customfontstyle" parent="@android:style/TextAppearance">
+        <item name="android:typeface">serif</item>
+        <!--        <item name="android:fontFamily">@font/sukhumvitset</item>-->
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--        <item name="android:fontFamily">@font/sukhumvitset</item>-->
+        <item name="android:typeface">serif</item>
+        <item name="android:buttonStyle">@style/Button</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorWhite</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="Theme.MaterialComponents.Light.DarkActionBar" >
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Dark"/>
+
+    <style name="AppTheme.BlueLightAppBarTheme">
+        <item name="colorPrimary">@color/colorLightBlue</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorLightBlue</item>
+    </style>
+
+    <style name="BlueAppBarTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:typeface">serif</item>
+        <item name="colorPrimaryDark">@color/colorBlue</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <!-- EditText -->
+    <style name="EditText">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/spaceSizeExtraLarge</item>
+        <item name="android:paddingTop">@dimen/spaceSizeExtraLarge</item>
+        <item name="android:paddingLeft">@dimen/spaceSizeExtraLarge</item>
+        <item name="android:paddingRight">@dimen/spaceSizeExtraLarge</item>
+        <item name="android:background">@drawable/edit_text_custom_selector</item>
+        <item name="android:textSize">@dimen/textSizeMedium</item>
+    </style>
+
+    <style name="EditText.Rounded">
+        <item name="android:textSize">@dimen/textSizeMedium</item>
+        <item name="android:background">@drawable/edit_text_custom_corner_selector</item>
+    </style>
+
+    <style name="EditText.Rounded.20">
+        <item name="android:textSize">@dimen/textSizeMedium</item>
+        <item name="android:background">@drawable/edit_text_custom_corner_selector_20</item>
+    </style>
+
+    <!-- chip -->
+    <style name="chipTextAppearance" parent="TextAppearance.MaterialComponents.Chip">
+        <item name="android:textSize">@dimen/textSizeLarge</item>
+        <item name="android:fontFamily">@font/sukhumvitset</item>
+    </style>
+
+    <!--Button-->
+    <style name="Button"  parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/textSizeMediumSmall</item>
+        <item name="android:padding">@dimen/buttonPadding</item>
+    </style>
+
+    <style name="Button.Outline"  parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">200dp</item>
+
+        <item name="android:textSize">@dimen/textSizeMediumSmall</item>
+        <item name="android:padding">@dimen/buttonPadding</item>
+    </style>
+    <style name="Button.Outline.Green">
+        <item name="android:textColor">@color/btn_bg_color_green</item>
+        <item name="strokeColor">@color/colorGreen</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="cornerRadius">@dimen/buttonCorner</item>
+    </style>
+
+    <style name="Button.Full"  parent="Widget.MaterialComponents.Button">
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="android:textSize">@dimen/textSizeMediumSmall</item>
+        <item name="android:padding">@dimen/buttonPadding</item>
+    </style>
+
+
+    <style name="Button.Full.Gray"  parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/btn_bg_color_gray</item>
+        <item name="cornerRadius">0dp</item>
+    </style>
+
+    <style name="Button.Green">
+        <item name="backgroundTint">@color/btn_bg_color_green</item>
+        <item name="cornerRadius">@dimen/buttonCorner</item>
+    </style>
+    <style name="Button.Green.Rounded">
+        <item name="backgroundTint">@color/btn_bg_color_green</item>
+        <item name="cornerRadius">25dp</item>
+    </style>
+    <style name="Button.Red">
+        <item name="backgroundTint">@color/btn_bg_color_red</item>
+        <item name="cornerRadius">@dimen/buttonCorner</item>
+    </style>
+    <style name="Button.Yellow">
+        <item name="backgroundTint">@color/btn_bg_color_yellow</item>
+        <item name="cornerRadius">@dimen/buttonCorner</item>
+    </style>
+    <style name="Button.NavyBlue">
+        <item name="backgroundTint">@color/btn_bg_color_blue</item>
+        <item name="cornerRadius">@dimen/buttonCorner</item>
+    </style>
+    <style name="Button.NavyBlue.Rounded">
+        <item name="backgroundTint">@color/btn_bg_color_blue</item>
+        <item name="cornerRadius">25dp</item>
+    </style>
+    <style name="Button.Gray">
+        <item name="backgroundTint">@color/btn_bg_color_green</item>
+        <item name="cornerRadius">@dimen/buttonCorner</item>
+    </style>
+
+    <!-- set the rounded drawable as background to your bottom sheet -->
+    <style name="BottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_rounded_bottom_sheet_dialog_fragment</item>
+    </style>
+
+    <style name="BaseBottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="BaseBottomSheetDialog" />
+
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <!-- Style attributes -->
+
+        <item name="boxBackgroundColor">@color/colorWhite</item>
+
+        <item name="hintTextAppearance">@style/HintText</item>
+        <item name="errorTextAppearance">@style/ErrorText</item>
+        <item name="counterTextAppearance">@style/HintText</item>
+
+
+        <!-- Theme attributes -->
+        <item name="android:textColorHint">#80000000</item>
+
+        <item name="colorControlNormal">#000</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+
+    </style>
+
+
+    <style name="ErrorText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorRed</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="HintText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorGreen</item>
+        <item name="android:textSize">14sp</item>
+
+    </style>
+
+    <!--Text-->
+    <style name="BoldText">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="BoldText.Primary">
+        <item name="android:textColor">@color/colorDark</item>
+    </style>
+    <style name="BoldText.Secondary">
+        <item name="android:textColor">@color/colorDarkLight</item>
+    </style>
+    <style name="BoldText.Muted">
+        <item name="android:textColor">@color/colorExtraLightGray</item>
+    </style>
+    <style name="BoldText.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="BoldText.Green">
+        <item name="android:textColor">@color/colorGreen</item>
+    </style>
+    <style name="BoldText.Blue">
+        <item name="android:textColor">@color/colorDarkBlue</item>
+    </style>
+    <style name="BoldText.Red">
+        <item name="android:textColor">@color/colorRed</item>
+    </style>
+
+    <style name="RegularText" />
+    <style name="RegularText.Primary">
+        <item name="android:textColor">@color/colorDark</item>
+    </style>
+    <style name="RegularText.White">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="RegularText.Secondary">
+        <item name="android:textColor">@color/colorDarkLight</item>
+    </style>
+    <style name="RegularText.Muted">
+        <item name="android:textColor">@color/colorExtraLightGray</item>
+    </style>
+    <style name="RegularText.Green">
+        <item name="android:textColor">@color/colorGreen</item>
+    </style>
+    <style name="RegularText.Blue">
+        <item name="android:textColor">@color/colorDarkBlue</item>
+    </style>
+    <style name="RegularText.NavyBlue">
+        <item name="android:textColor">@color/colorNavyBlue</item>
+    </style>
+    <style name="RegularText.Red">
+        <item name="android:textColor">@color/colorRed</item>
+    </style>
+
+    <style name="BoldText.Chicago.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BoldText.Chicago">
+        <item name="android:textColor">@color/chicago</item>
+    </style>
+
+
+</resources>

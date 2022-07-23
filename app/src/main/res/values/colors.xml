@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bgAppShowProduct">#F6F6F6</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#1FC143</color>
+
+    <color name="colorDark">#000000</color>
+    <color name="colorDarkLight">#6C6A6A</color>
+
+    <color name="colorGray">#C2C2C2</color>
+    <color name="colorDarkGray">#455D70</color>
+    <color name="colorExtraDarkGray">#575756</color>
+    <color name="colorLightGray">#B4B4B4</color>
+    <color name="colorExtraLightGray">#C4C4C4</color>
+    <color name="colorSuperExtraLightGray">#F6F6F6</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorDarkRed">#C9242C</color>
+    <color name="colorRed">#EE0C19</color>
+
+    <color name="colorYellow">#FFA73B</color>
+
+    <color name="colorDarkGreen">#1A9935</color>
+    <color name="colorGreen">#1FC143</color>
+    <color name="colorLightGreen">#91FFAA</color>
+    <color name="boulder">#7b7b7b</color>
+    <color name="separator">#E4E4E4</color>
+    <color name="chicago">#575756</color>
+
+    <color name="colorSilver">#C4C4C4</color>
+
+
+
+    <color name="colorDarkBlue">#464DEB</color>
+    <color name="colorNavyBlue">#1C4D9C</color>
+    <color name="colorCouponBlue">#00A8E1</color>
+    <color name="colorBlue">#BEECFD</color>
+    <color name="colorLightBlue">#E1FCFE</color>
+
+    <color name="colorEditTextBorder">#CED4DA</color>
+
+
+    <!-- Color for Product Category and use in Headline Teaser as well -->
+    <color name="color_product_category_pink_start">#EA3992</color>
+    <color name="color_product_category_pink_end">#FFD7EB</color>
+    <color name="color_product_category_orange_start">#F8640d</color>
+    <color name="color_product_category_orange_end">#FCE5D7</color>
+    <color name="color_product_category_blue_start">#133490</color>
+    <color name="color_product_category_blue_end">#B2BFE6</color>
+    <color name="color_product_category_red_start">#b10218</color>
+    <color name="color_product_category_red_end">#ffc6cd</color>
+    <color name="color_product_category_gray_start">#414451</color>
+    <color name="color_product_category_gray_end">#dadada</color>
+    <color name="color_product_category_violet_start">#9A1CBB</color>
+    <color name="color_product_category_violet_end">#E9BBF5</color>
+    <color name="color_product_category_light_blue_start">#00A8E1</color>
+    <color name="color_product_category_light_blue_end">#C3F0FF</color>
+    <color name="color_product_category_green_start">#00C300</color>
+    <color name="color_product_category_green_end">#A1EBA1</color>
+    <color name="color_product_category_brown_start">#6E4F05</color>
+    <color name="color_product_category_brown_end">#DFCDA0</color>
+
+
+    <color name="color_checkout_store">#69D681</color>
+    <color name="color_checkout_home">#FFA73B</color>
+</resources>

@@ -1,0 +1,46 @@
+<resources>
+    <!--App-->
+    <string name="default_locale" translatable="false">th</string>
+    <string name="default_country" translatable="false">TH</string>
+
+    <string name="app_name">MyApplication</string>
+
+    <!--System-->
+    <string name="msg_title_info">ข้อมูล</string>
+    <string name="msg_title_warn">แจ้งเตือน</string>
+    <string name="msg_title_confirm">ยืนยัน</string>
+    <string name="msg_title_error">เกิดข้อผิดพลาด</string>
+    <string name="msg_auto_signoff">กด OK เพื่อกลับสู่หน้าเริ่มต้น</string>
+    <string name="msg_service_close">ระบบกำลังปิดปรับปรุง</string>
+    <string name="msg_socket_time_out">โปรดตรวจสอบการเชื่อมต่ออินเตอร์เน็ต</string>
+    <string name="msg_user_revoke">ผู้ใช้นี้ถูกเผิกถอนออกจากระบบ</string>
+    <string name="msg_user_logout_error">Logout ไม่สำเร็จ</string>
+    <string name="version_text">Version : %s</string>
+
+    <string name="msg_btn_ok">OK</string>
+    <string name="msg_btn_confirm">ตกลง</string>
+    <string name="msg_btn_cancel">ยกเลิก</string>
+    <string name="msg_btn_close">ปิด</string>
+    <string name="msg_btn_confirm_ok">ใช่</string>
+    <string name="msg_btn_confirm_cancel">ไม่</string>
+    <string name="msg_btn_finished">เสร็จสิ้น</string>
+    <string name="msg_btn_retry">ลองอีกครั้ง</string>
+    <string name="msg_btn_exit">ออก</string>
+    <string name="msg_btn_back_to_login">ออกจากระบบ</string>
+    <string name="msg_header_dialog_normal">คำเตือน</string>
+    <string name="msg_back_two_step">กรุณากรอกปุ่มย้อนกลับอีกครั้งเพื่อออกจากแอพ</string>
+    <string name="msg_login_mobile_store_empty">ไม่พบรหัสร้านของผู้ใช้งานนี้\nกรุณาระบุรหัสร้าน</string>
+    <string name="msg_logout_kiosk">ใส่รหัสผ่าน</string>
+    <string name="msg_logout_customer_confirm">ยังมี Login ของคุณ %s อยู่\nต้องการออกจากระบบใช่หรือไม่?</string>
+    <string name="msg_logout_guest_confirm">ต้องการกลับไปหน้า Menu หลักใช่หรือไม่?</string>
+    <string name="msg_btn_confirm_preoder">ลบรายการสินค้า</string>
+    <string name="msg_header_preoder_detail">สินค้าจอง! จำกัดการส่งเพียงบางพื้นที่!</string>
+    <string name="msg_detail_preoder">สินค้านี้เป็นสินค้าสั่งจอง จำกัดสาขาในการส่ง **ไม่สามารถสั่งซื้อร่วมกับสินค้าอื่นได้** ถ้ากด ลบรายการสินค้า เราจะทำการยกเลิกสินค้าทุกชนิดจะเหลือแค่สินค้าสั่งจอง</string>
+
+    <string name="msg_state_error">พบข้อผิดพลาด</string>
+    <string name="btn_text_retry">ลองอีกครั้ง</string>
+    <string name="error_noInternet_msg">ไม่มีสัญญาณอินเตอร์เน็ต</string>
+    <string name="error_default_msg">ขออภัยระบบขัดข้อง กรุณาลองใหม่ภายหลัง</string>
+    <string name="error_retry_msg">พบข้อผิดพลาด\nกรุณาลองกดลองอีกครั้ง</string>
+    <string name="err_session_expired">เซสชั่นของคุณหมดอายุ</string>
+</resources>

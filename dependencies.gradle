@@ -1,0 +1,174 @@
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+
+ext {
+    supportLibraryVersion = '28.0.0'
+    junitVersion = '4.12'
+    playServiceVersion = "16.0.0"
+    firebaseVersion = "16.0.0"
+    butterKnifeVersion = "10.1.0"
+    glideVersion = "4.8.0"
+    ktx = "1.1.0"
+
+    mockitoKotlinVersion = '2.1.0'
+    hamcrestVersion = '1.3'
+    espressoVersion = '3.1.1'
+
+    okhttpVersion = '3.12.0'
+    koinVersion = '2.0.1'
+    retrofitVersion = '2.6.0'
+
+    hamkrest = '1.4.1.0'
+
+    support = [
+            design :  "com.android.support:design:$rootProject.ext.supportLibraryVersion",
+            percent   : "com.android.support:percent:$rootProject.ext.supportLibraryVersion",
+            customtabs: "com.android.support:customtabs:$rootProject.ext.supportLibraryVersion",
+    ]
+
+    android_material = "com.google.android.material:material:1.0"
+
+    supportv4 = "androidx.legacy:legacy-support-v4:1.0.0"
+
+    appcompat = "androidx.appcompat:appcompat:1.0.2"
+
+    cardview = "androidx.cardview:cardview:1.0.0"
+
+    constraint = "androidx.constraintlayout:constraintlayout:1.1.3"
+
+    arch = [
+            coreTest: "android.arch.core:core-testing:1.1.1",
+            extensions: "androidx.lifecycle:lifecycle-extensions:2.1.0"
+    ]
+
+    firebase = [
+            core               : "com.google.firebase:firebase-core:16.0.8",
+            config             : "com.google.firebase:firebase-config:17.0.0",
+            messaging          : "com.google.firebase:firebase-messaging:18.0.0",
+            auth               : "com.google.firebase:firebase-auth:17.0.0",
+            firebase_analytics : "com.google.firebase:firebase-analytics:16.5.0",
+            firbase_performance: "com.google.firebase:firebase-perf:17.0.2"
+    ]
+
+    google_play = [
+            maps      : "com.google.android.gms:play-services-maps:16.1.0",
+            gcm       : "com.google.android.gms:play-services-gcm:$playServiceVersion",
+            location  : "com.google.android.gms:play-services-location:$playServiceVersion",
+            auth      : "com.google.android.gms:play-services-auth:16.0.1",
+            tagmanager: "com.google.android.gms:play-services-tagmanager:16.0.8",
+            vision    : "com.google.android.gms:play-services-vision:19.0.0"
+    ]
+
+    butter_knife = [
+            butter_knife     : "com.jakewharton:butterknife:$butterKnifeVersion",
+            butter_knife_kapt: "com.jakewharton:butterknife-compiler:$butterKnifeVersion"
+    ]
+
+    glide = [
+            glide     : "com.github.bumptech.glide:glide:$glideVersion",
+            glide_kapt: "com.github.bumptech.glide:compiler:$glideVersion",
+            glide_okhttp3:"com.github.bumptech.glide:okhttp3-integration:$glideVersion",
+            glide_volley:"com.github.bumptech.glide:volley-integration:$glideVersion"
+    ]
+
+    multidex = "androidx.multidex:multidex:2.0.1"
+
+    onesignal = 'com.onesignal:OneSignal:3.10.2'
+
+    koin_viewmodel = "org.koin:koin-androidx-viewmodel:$koinVersion"
+
+    fragment_navigation = 'com.ncapdevi:frag-nav:3.0.0'
+
+    rxjava = 'io.reactivex.rxjava2:rxjava:2.1.14'
+    rxrelay = 'com.jakewharton.rxrelay2:rxrelay:2.1.0'
+    rxandroid = 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    rxrelay = 'com.jakewharton.rxrelay2:rxrelay:2.0.0'
+
+    picasso = 'com.squareup.picasso:picasso:2.5.2'
+
+    retrofit = [
+            retrofit      : "com.squareup.retrofit2:retrofit:$retrofitVersion",
+            converter_gson: "com.squareup.retrofit2:converter-gson:$retrofitVersion",
+            rxjava_adapter: "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion",
+            converter_scalar:"com.squareup.retrofit2:converter-scalars:$retrofitVersion"
+    ]
+
+    logging_interceptor = "com.github.ihsanbal:LoggingInterceptor:2.0.2"
+
+    gson = 'com.google.code.gson:gson:2.8.2'
+
+    rxbindings = 'com.jakewharton.rxbinding2:rxbinding-kotlin:2.1.1'
+    rxpermissions = 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar'
+
+    facebook_android_sdk = 'com.facebook.android:facebook-android-sdk:4.41.0'
+
+    material_dialogs = 'com.afollestad.material-dialogs:core:0.9.4.5'
+
+    expandable_recyclerview = 'com.thoughtbot:expandablerecyclerview:1.3'
+
+    swipe_menu_listview = 'com.baoyz.swipemenulistview:library:1.3.0'
+
+    slider = 'com.daimajia.slider:library:1.1.5@aar'
+
+    swipe = 'com.daimajia.swipelayout:library:1.2.0@aar'
+
+    material_datetime_picker = 'com.wdullaer:materialdatetimepicker:3.6.4'
+
+    range_seekbar = 'org.florescu.android.rangeseekbar:rangeseekbar-library:0.3.0'
+
+    circle_imageview = 'de.hdodenhof:circleimageview:2.2.0'
+
+    nineoldandroids = 'com.nineoldandroids:library:2.4.0'
+
+    html_textview = 'org.sufficientlysecure:html-textview:3.6'
+
+    crashlytics = 'com.crashlytics.sdk.android:crashlytics:2.9.2@aar'
+
+    appsflyer = 'com.appsflyer:af-android-sdk:4.8.11@aar'
+
+    install_referrer = 'com.android.installreferrer:installreferrer:1.0'
+
+    saripaar = 'com.mobsandgeeks:android-saripaar:2.0.3'
+
+    persistent_cookie_jar = 'com.github.franmontiel:PersistentCookieJar:v1.0.1'
+
+    barcode_scanner = 'me.dm7.barcodescanner:zbar:1.9.13'
+
+    ihsanbal_logging_interceptor = 'com.github.ihsanbal:LoggingInterceptor:2.0.2'
+
+    facebook_shimmer = 'com.facebook.shimmer:shimmer:0.4.0'
+
+    http_logging_interceptor = 'com.squareup.okhttp3:logging-interceptor:3.12.2'
+
+    encryption = 'at.favre.lib:armadillo:0.8.0'
+    secure_preferences = 'com.scottyab:secure-preferences-lib:0.1.7'
+
+    lottie = 'com.airbnb.android:lottie:3.0.6'
+
+    flexbox = 'com.google.android:flexbox:1.1.0'
+
+    trust_kit = 'com.datatheorem.android.trustkit:trustkit:1.0.3'
+
+    ktx = [
+            core      : "androidx.core:core-ktx:$ktx",
+            viewmodel : "androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0"
+    ]
+
+    coroutines = [
+            android : 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.0',
+            rx      : 'org.jetbrains.kotlinx:kotlinx-coroutines-rx2:1.2.2',
+            test    : 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.3.2',
+    ]
+
+    zxing ='com.google.zxing:core:3.4.0'
+
+    jwtdecode = 'com.auth0.android:jwtdecode:1.1.1'
+
+    stickyscrollview = 'com.github.amarjain07:StickyScrollView:1.0.2'
+    
+}
